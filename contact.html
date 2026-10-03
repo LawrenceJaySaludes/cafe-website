@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Juniper & Roast is a neighborhood café for thoughtfully brewed coffee and unhurried moments.">
+  <title>Contact | Juniper &amp; Roast</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="site-brand" href="/index.html" aria-label="Juniper &amp; Roast home">Juniper &amp; Roast</a>
+
+      <button class="nav-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false" aria-label="Open navigation menu">
+        <span class="nav-toggle__line"></span>
+        <span class="nav-toggle__line"></span>
+        <span class="nav-toggle__line"></span>
+      </button>
+
+      <nav class="primary-navigation" id="primary-navigation" aria-label="Primary navigation">
+        <ul class="navigation-list">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/menu.html">Menu</a></li>
+          <li><a href="/contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="site-main">
+    <section class="contact-intro" aria-labelledby="contact-title">
+      <div class="container contact-intro__inner">
+        <p class="eyebrow">Get in touch</p>
+        <h1 id="contact-title">We’d love to hear from you.</h1>
+        <p>Have a question, a note, or just want to say hello? Send us a message or stop by for a cup.</p>
+      </div>
+    </section>
+
+    <section class="contact-content" aria-label="Contact information and message form">
+      <div class="container contact-layout">
+        <div class="contact-details">
+          <p class="eyebrow">At the café</p>
+          <h2>We’re easy to find.</h2>
+          <p class="contact-details__note">The address, contact, and opening-hour details below are fictional for this trial project.</p>
+
+          <div class="contact-detail">
+            <h3>Visit Us</h3>
+            <address>24 Juniper Street, Davao City, Philippines</address>
+          </div>
+
+          <div class="contact-detail">
+            <h3>Call Us</h3>
+            <a href="tel:+639171234567">+63 917 123 4567</a>
+          </div>
+
+          <div class="contact-detail">
+            <h3>Email Us</h3>
+            <a href="mailto:hello@juniperandroast.com">hello@juniperandroast.com</a>
+          </div>
+
+          <div class="contact-detail contact-detail--hours">
+            <h3>Opening Hours</h3>
+            <dl class="opening-hours">
+              <div>
+                <dt>Monday – Friday</dt>
+                <dd>7:00 AM – 8:00 PM</dd>
+              </div>
+              <div>
+                <dt>Saturday – Sunday</dt>
+                <dd>8:00 AM – 9:00 PM</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+
+        <section class="contact-form-panel" aria-labelledby="form-title">
+          <p class="eyebrow">A note is always welcome</p>
+          <h2 id="form-title">Send us a message</h2>
+          <form id="contact-form" class="contact-form" action="#" method="post" novalidate>
+            <div class="form-field">
+              <label for="contact-name">Full Name</label>
+              <input id="contact-name" name="name" type="text" autocomplete="name" aria-describedby="name-error" required>
+              <p class="field-error" id="name-error" aria-live="polite" hidden></p>
+            </div>
+
+            <div class="form-field">
+              <label for="contact-email">Email Address</label>
+              <input id="contact-email" name="email" type="email" autocomplete="email" inputmode="email" aria-describedby="email-error" required>
+              <p class="field-error" id="email-error" aria-live="polite" hidden></p>
+            </div>
+
+            <div class="form-field">
+              <label for="contact-message">Message</label>
+              <textarea id="contact-message" name="message" rows="5" aria-describedby="message-error" required></textarea>
+              <p class="field-error" id="message-error" aria-live="polite" hidden></p>
+            </div>
+
+            <button class="button" type="submit">Send Message</button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </section>
+      </div>
+    </section>
+
+    <section class="location-section" aria-labelledby="location-title">
+      <div class="container">
+        <div class="location-section__heading">
+          <div>
+            <p class="eyebrow">Around the corner</p>
+            <h2 id="location-title">Find us on Juniper Street.</h2>
+          </div>
+          <p>Our map is an illustration for this trial project, not a live location map.</p>
+        </div>
+
+        <figure class="location-map">
+          <div class="location-map__art" aria-hidden="true">
+            <svg viewBox="0 0 1200 440" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <rect width="1200" height="440" fill="#E9E4D9"/>
+              <path d="M55 48h205v101H55zM299 48h221v101H299zM564 48h193v101H564zM804 48h331v101H804zM54 288h211v102H54zM306 288h211v102H306zM561 288h192v102H561zM799 288h337v102H799z" fill="#DCE1D5"/>
+              <path d="M-49 210 275-20M365 458 1005-12M725 456 1295 43M-22 374 492 2M628 468l536-398" stroke="#FBFAF6" stroke-width="37"/>
+              <path d="M-30 188 298-43M384 438 1024-32M746 436 1316 23M-4 352 510-20M652 446l536-398" stroke="#CFC8B9" stroke-width="2"/>
+              <path d="M422-35v520M783-38v516M-20 260h1245" stroke="#FBFAF6" stroke-width="23"/>
+              <path d="M443-20v480M805-20v480M0 260h1200" stroke="#CFC8B9" stroke-width="2"/>
+              <path d="M101 181h101v44H101zM328 179h110v48H328zM555 178h110v49H555zM906 177h137v51H906zM214 314h77v37h-77zM691 310h65v42h-65zM1082 300h77v50h-77z" fill="#BFC9B3"/>
+              <path d="M515 42c43 4 74 36 78 79-43-4-74-36-78-79ZM548 92c-4 44-36 74-79 78 4-43 36-74 79-78ZM109 318c37-4 68 19 79 55-37 4-68-19-79-55Z" fill="#849176"/>
+            </svg>
+          </div>
+          <div class="location-map__label">
+            <span class="location-map__marker" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M12 22s8-7.4 8-13a8 8 0 1 0-16 0c0 5.6 8 13 8 13Z" fill="currentColor"/>
+                <circle cx="12" cy="9" r="2.5" fill="#FBFAF6"/>
+              </svg>
+            </span>
+            <span>
+              <strong>Juniper &amp; Roast</strong>
+              <span>24 Juniper Street<br>Davao City</span>
+            </span>
+          </div>
+          <figcaption>Illustrated map placeholder · not to scale</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="contact-closing" aria-labelledby="closing-title">
+      <div class="container contact-closing__inner">
+        <div>
+          <p class="eyebrow">Until then</p>
+          <h2 id="closing-title">See you at Juniper &amp; Roast.</h2>
+          <p>Drop by for a coffee, a meal, or a little pause in the day.</p>
+        </div>
+        <a class="text-link" href="/menu.html">Take a look at the menu <span aria-hidden="true">&rarr;</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__content">
+        <div class="site-footer__intro">
+          <a class="site-footer__brand" href="/index.html">Juniper &amp; Roast</a>
+          <p>A neighborhood café for thoughtfully brewed coffee and unhurried moments.</p>
+        </div>
+
+        <nav class="footer-navigation" aria-label="Footer navigation">
+          <ul class="footer-navigation__list">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/menu.html">Menu</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <nav class="social-navigation" aria-label="Social media">
+          <ul class="social-navigation__list">
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="site-footer__bottom">
+        <p>&copy; 2026 Juniper &amp; Roast</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
